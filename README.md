@@ -72,16 +72,7 @@ Per cambiare l’ordine, sposta il blocco della sezione (ad esempio PB, RTB, Can
 
 Lo stile del sito si trova nel file css/style.css.
 
-Puoi modificare i colori, i font e l’aspetto delle sezioni in base alle preferenze del gruppo.
-
-🧠 Suggerimenti di manutenzione
-Operazione	Dove intervenire	Cosa succede
-Aggiungere documenti	Cartelle in docs/	Il sito mostra i nuovi file
-Rinominare cartella	Cartella + _data/sections.yml	Aggiorna il percorso
-Aggiungere tipo file	_data/sections.yml	Mostra nuovi formati
-Aggiungere o togliere sezione	_data/sections.yml	Cambia la struttura
-Cambiare ordine sezioni	_data/sections.yml	Riorganizza le sezioni
-Modificare grafica	css/style.css	Cambia lo stile del sito
+Si possono modificare i colori, i font e l’aspetto delle sezioni in base alle preferenze.
 
 🔄 Aggiornamento del sito su GitHub Pages
 

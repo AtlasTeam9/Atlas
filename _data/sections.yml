@@ -75,7 +75,7 @@ sections:
         dir: "/docs/Presentazioni/diapositive"
         exts: "pdf,md"
           
-      - title: "Diari"
+      - title: "Diari di Bordo"
         dir: "/docs/Presentazioni/Diari"
         exts: "pdf"
 

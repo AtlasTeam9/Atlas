@@ -1,6 +1,6 @@
 🌐 Sito del Gruppo Atlas – Progetto SWE 2025/2026
 
-Questo repository contiene il sito statico del gruppo Atlas per il progetto di Ingegneria del Software dell’Università di Padova.
+Questo repository contiene il sito del gruppo Atlas per il progetto di Ingegneria del Software dell’Università di Padova.
 
 Il sito è costruito con Jekyll + GitHub Pages e si aggiorna automaticamente ogni volta che vengono caricate nuove versioni o modifiche.
 

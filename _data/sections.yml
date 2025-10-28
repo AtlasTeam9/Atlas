@@ -62,7 +62,7 @@ sections:
             dir: "/docs/Candidatura/verbali/interni"
             exts: "pdf"
           - title: "Esterni"
-            dir: "/docs/Candidatura/verbali/esterni"
+            dir: "/docs/Candidatura/verbali/esterni/firmati"
             exts: "pdf"
       - title: "Extra"
         dir: "/docs/Candidatura/extra"
@@ -76,7 +76,7 @@ sections:
         exts: "pdf,md"
           
       - title: "Diari"
-        dir: "/docs/Presentazioni/diari"
+        dir: "/docs/Presentazioni/Diari"
         exts: "pdf"
 
       - title: "Extra"

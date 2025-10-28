@@ -6,10 +6,10 @@ sections:
         subsections:
           - title: "Interni"
             dir: "/docs/PB/documenti/interni"
-            exts: "pdf,md,zip"
+            exts: "pdf"
           - title: "Esterni"
             dir: "/docs/PB/documenti/esterni"
-            exts: "pdf,zip"
+            exts: "pdf"
       - title: "Verbali"
         subsections:
           - title: "Interni"
@@ -49,13 +49,8 @@ sections:
     title: "Candidatura"
     groups:
       - title: "Documenti"
-        subsections:
-          - title: "Interni"
-            dir: "/docs/Candidatura/documenti/interni"
-            exts: "pdf,md"
-          - title: "Esterni"
-            dir: "/docs/Candidatura/documenti/esterni"
-            exts: "pdf,md"
+        dir: "/docs/Candidatura/documenti"
+        exts: "pdf,md"   
       - title: "Verbali"
         subsections:
           - title: "Interni"

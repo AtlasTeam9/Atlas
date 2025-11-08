@@ -1,26 +1,26 @@
 sections:
-  - id: pb
-    title: "PB — Product Baseline"
-    groups:
-      - title: "Documenti"
-        subsections:
-          - title: "Interni"
-            dir: "/docs/PB/documenti/interni"
-            exts: "pdf"
-          - title: "Esterni"
-            dir: "/docs/PB/documenti/esterni"
-            exts: "pdf"
-      - title: "Verbali"
-        subsections:
-          - title: "Interni"
-            dir: "/docs/PB/verbali/interni"
-            exts: "pdf"
-          - title: "Esterni"
-            dir: "/docs/PB/verbali/esterni"
-            exts: "pdf"
-      - title: "Extra"
-        dir: "/docs/PB/extra"
-        exts: "pdf,zip"
+#  - id: pb
+#    title: "PB — Product Baseline"
+#    groups:
+#      - title: "Documenti"
+#        subsections:
+#          - title: "Interni"
+#            dir: "/docs/PB/documenti/interni"
+#            exts: "pdf"
+#          - title: "Esterni"
+#            dir: "/docs/PB/documenti/esterni"
+#            exts: "pdf"
+#      - title: "Verbali"
+#        subsections:
+#          - title: "Interni"
+#            dir: "/docs/PB/verbali/interni"
+#            exts: "pdf"
+#          - title: "Esterni"
+#            dir: "/docs/PB/verbali/esterni"
+#            exts: "pdf"
+#      - title: "Extra"
+#        dir: "/docs/PB/extra"
+#        exts: "pdf,zip"
 
   - id: rtb
     title: "RTB — Requirements & Technology Baseline"

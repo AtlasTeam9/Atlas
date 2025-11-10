@@ -21,10 +21,8 @@ layout: null
         <span>Atlas</span>
       </a>
       <nav class="nav" aria-label="Navigazione principale">
-       {%- for s in site.data.sections.sections -%}
-          <a href="#{{ s.id }}">{{ s.title | split: " — " | first }}</a>
-        {%- endfor -%}
-        <a href="{{ site.baseurl }}/#team">Team</a>
+       
+        <a href="{{ site.baseurl }}">Home</a>
         <a href="{{ site.baseurl }}/glossario.html" aria-current="page">Glossario</a>
       </nav>
     </div>

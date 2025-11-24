@@ -39,7 +39,7 @@ sections:
             dir: "/docs/RTB/verbali/interni"
             exts: "pdf"
           - title: "Esterni"
-            dir: "/docs/RTB/verbali/esterni"
+            dir: "/docs/RTB/verbali/esterni/firmati"
             exts: "pdf"
       - title: "Extra"
         dir: "/docs/RTB/extra"

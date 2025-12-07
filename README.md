@@ -13,6 +13,15 @@ Non serve modificare manualmente l’HTML: ogni sezione viene generata leggendo 
 Quando vengono aggiunti nuovi file o cambiano le cartelle, il sito si rigenera automaticamente dopo il salvataggio e il caricamento su GitHub.
 
 ✏️ Come aggiornare o modificare il sito
+
+🔹 0. Testare in locale
+
+'''
+docker build -t atlas-site .
+docker run -it --rm -p 4000:4000 -v $(pwd):/site atlas-site
+'''
+
+
 🔹 1. Aggiungere nuovi documenti
 
 Inserisci i file PDF, ZIP o di altro formato nelle cartelle corrette all’interno della directory docs/.

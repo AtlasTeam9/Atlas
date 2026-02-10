@@ -28,6 +28,9 @@ sections:
       - title: ""
         dir: "/poc/"
         exts: "zip" 
+      - title: "Lettera di presentazione"
+        dir: "/letteraRTB/"
+        exts: "pdf" 
       - title: "Documenti"
         subsections:
           - title: "Interni"

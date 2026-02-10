@@ -30,6 +30,9 @@ sections:
         exts: "zip" 
       - title: "Documenti"
         subsections:
+          - title: ""
+            dir: "/docs/RTB/documenti"
+            exts: "pdf,md"
           - title: "Interni"
             dir: "/docs/RTB/documenti/interni"
             exts: "pdf,md"

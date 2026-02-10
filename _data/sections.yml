@@ -25,6 +25,9 @@ sections:
   - id: rtb
     title: "RTB — Requirements & Technology Baseline"
     groups:
+      - title: ""
+        dir: "/poc/"
+        exts: "zip" 
       - title: "Documenti"
         subsections:
           - title: "Interni"

@@ -75,10 +75,10 @@ sections:
       - title: "Diapositive"
         subsections:
           - title: "RTB"
-            dir: "/docs/Presentazioni/diapositive/RTB"
+            dir: "/docs/Presentazioni/Diapositive/RTB"
             exts: "pdf"
           - title: "PB"
-            dir: "/docs/Presentazioni/diapositive/PB"
+            dir: "/docs/Presentazioni/Diapositive/PB"
             exts: "pdf"
           
       - title: "Diari di Bordo"

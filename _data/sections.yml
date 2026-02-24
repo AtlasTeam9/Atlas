@@ -70,11 +70,16 @@ sections:
         exts: "pdf,md"
 
   - id: presentazione
-    title: "Presentazione & Comunicazioni"
+    title: "Presentazioni & Comunicazioni"
     groups:
       - title: "Diapositive"
-        dir: "/docs/Presentazioni/diapositive"
-        exts: "pdf,md"
+        subsections:
+          - title: "RTB"
+            dir: "/docs/Presentazioni/diapositive/RTB"
+            exts: "pdf"
+          - title: "PB"
+            dir: "/docs/Presentazioni/diapositive/PB"
+            exts: "pdf"
           
       - title: "Diari di Bordo"
         dir: "/docs/Presentazioni/Diari"

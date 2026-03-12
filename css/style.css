@@ -58,11 +58,13 @@ body{
   user-select:none;
 }
 .section-summary::-webkit-details-marker{ display:none; }
-.section-summary h2{ margin-bottom:0; flex:1; }
+.section-summary h2{ margin-bottom:0; flex:1; transition:color .2s ease; }
 .section-summary::after{
   content:"▸"; font-size:1.1rem; margin-left:.5rem;
-  color:var(--muted); transition:transform .15s ease;
+  color:var(--muted); transition:transform .15s ease, color .2s ease;
 }
+.section-summary:hover h2,
+.section-summary:hover::after{ color:var(--accent); }
 .section-details[open] > .section-summary::after{ transform:rotate(90deg); }
 .section-details[open] > .section-summary h2{ margin-bottom:.6rem; }
 

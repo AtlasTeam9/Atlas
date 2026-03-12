@@ -50,6 +50,22 @@ body{
 .btn:focus-visible{ outline:none; box-shadow:var(--ring); border-color:var(--accent); }
 .btn:active{ transform: translateY(1px); }
 
+/* ===== Section collapsible ===== */
+.section-details { display:block; }
+.section-summary{
+  cursor:pointer; list-style:none;
+  display:flex; align-items:center;
+  user-select:none;
+}
+.section-summary::-webkit-details-marker{ display:none; }
+.section-summary h2{ margin-bottom:0; flex:1; }
+.section-summary::after{
+  content:"▸"; font-size:1.1rem; margin-left:.5rem;
+  color:var(--muted); transition:transform .15s ease;
+}
+.section-details[open] > .section-summary::after{ transform:rotate(90deg); }
+.section-details[open] > .section-summary h2{ margin-bottom:.6rem; }
+
 /* ===== Accordion ===== */
 .accordion{
   margin:.6rem 0 1rem;

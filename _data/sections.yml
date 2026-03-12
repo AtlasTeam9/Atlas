@@ -1,29 +1,30 @@
 sections:
-#  - id: pb
-#    title: "PB — Product Baseline"
-#    groups:
-#      - title: "Documenti"
-#        subsections:
-#          - title: "Interni"
-#            dir: "/docs/PB/documenti/interni"
-#            exts: "pdf"
-#          - title: "Esterni"
-#            dir: "/docs/PB/documenti/esterni"
-#            exts: "pdf"
-#      - title: "Verbali"
-#        subsections:
-#          - title: "Interni"
-#            dir: "/docs/PB/verbali/interni"
-#            exts: "pdf"
-#          - title: "Esterni"
-#            dir: "/docs/PB/verbali/esterni"
-#            exts: "pdf"
-#      - title: "Extra"
-#        dir: "/docs/PB/extra"
-#        exts: "pdf,zip"
+  - id: pb
+    title: "PB — Product Baseline"
+    groups:
+      - title: "Documenti"
+        subsections:
+          - title: "Interni"
+            dir: "/docs/PB/documenti/interni"
+            exts: "pdf"
+          - title: "Esterni"
+            dir: "/docs/PB/documenti/esterni"
+            exts: "pdf"
+      - title: "Verbali"
+        subsections:
+          - title: "Interni"
+            dir: "/docs/PB/verbali/interni"
+            exts: "pdf"
+          - title: "Esterni"
+            dir: "/docs/PB/verbali/esterni/firmati"
+            exts: "pdf"
+      - title: "Extra"
+        dir: "/docs/PB/extra"
+        exts: "pdf,zip"
 
   - id: rtb
     title: "RTB — Requirements & Technology Baseline"
+    collapsible: true
     groups:
       - title: ""
         dir: "/poc/"
@@ -53,6 +54,7 @@ sections:
 
   - id: candidatura
     title: "Candidatura"
+    collapsible: true
     groups:
       - title: "Documenti"
         dir: "/docs/Candidatura/documenti"
@@ -71,6 +73,7 @@ sections:
 
   - id: presentazione
     title: "Presentazioni & Comunicazioni"
+    collapsible: true
     groups:
       - title: "Diapositive"
         subsections:

@@ -8,7 +8,12 @@ Tutti gli accordion sono CHIUSI di default (niente attributo 'open').
 
 {%- assign s = include.section -%}
 <section id="{{ s.id }}" class="section">
+  {%- if s.collapsible -%}
+  <details class="section-details">
+    <summary class="section-summary"><h2>{{ s.title }}</h2></summary>
+  {%- else -%}
   <h2>{{ s.title }}</h2>
+  {%- endif -%}
 
   {%- for g in s.groups -%}
     {%- if g.subsections and g.subsections.size > 0 -%}
@@ -42,4 +47,6 @@ Tutti gli accordion sono CHIUSI di default (niente attributo 'open').
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
+
+  {%- if s.collapsible -%}</details>{%- endif -%}
 </section>

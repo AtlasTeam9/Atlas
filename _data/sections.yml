@@ -2,6 +2,9 @@ sections:
   - id: pb
     title: "PB — Product Baseline"
     groups:
+      - title: "Lettera di presentazione"
+          dir: "/letteraPB/"
+          exts: "pdf" 
       - title: "Documenti"
         subsections:
           - title: "Interni"

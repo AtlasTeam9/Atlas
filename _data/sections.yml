@@ -3,8 +3,8 @@ sections:
     title: "PB — Product Baseline"
     groups:
       - title: "Lettera di presentazione"
-          dir: "/letteraPB/"
-          exts: "pdf" 
+        dir: "/letteraPB/"
+        exts: "pdf" 
       - title: "Documenti"
         subsections:
           - title: "Interni"

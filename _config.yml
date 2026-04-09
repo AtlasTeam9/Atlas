@@ -5,6 +5,7 @@ url: "https://AtlasTeam9.github.io"
 
 markdown: kramdown
 highlighter: rouge
+theme: null
 
 exclude:
   - README.md
